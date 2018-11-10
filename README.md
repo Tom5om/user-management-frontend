@@ -1,2 +1,2 @@
 # user-management
-See api for information please
+Please follow the steps in the API repo
