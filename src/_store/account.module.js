@@ -110,9 +110,6 @@ const mutations = {
   registerFailure(state, error) {
     state.status = {};
   },
-  imageUploaded(state, user) {
-    state.user = user;
-  }
 };
 
 export const account = {

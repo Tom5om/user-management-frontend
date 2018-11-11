@@ -54,7 +54,7 @@ function verify(token) {
     headers: { "Content-Type": "application/json" }
   };
 
-  return fetch(`${apiUrl}/users/verify-email/${token}`, requestOptions).then(
+  return fetch(`${apiUrl}/users/verification/${token}`, requestOptions).then(
     handleResponse
   );
 }
